@@ -59,27 +59,27 @@ const About = () => {
           <div className="flex flex-wrap justify-center md:justify-start gap-6 mt-8">
             <div className="flex flex-col items-center text-green-600">
               <SiMongodb size={35} />
-              <span className="text-sm text-gray-700 mt-1">MongoDB</span>
+              <span className="text-sm mt-1 text-gray-400">MongoDB</span>
             </div>
             <div className="flex flex-col items-center text-gray-700">
               <SiExpress size={35} />
-              <span className="text-sm text-gray-700 mt-1">Express</span>
+              <span className="text-sm text-gray-400 mt-1">Express</span>
             </div>
             <div className="flex flex-col items-center text-blue-600">
               <FaReact size={35} />
-              <span className="text-sm text-gray-700 mt-1">React</span>
+              <span className="text-sm text-gray-400 mt-1">React</span>
             </div>
             <div className="flex flex-col items-center text-green-700">
               <FaNodeJs size={35} />
-              <span className="text-sm text-gray-700 mt-1">Node.js</span>
+              <span className="text-sm text-gray-400 mt-1">Node.js</span>
             </div>
             <div className="flex flex-col items-center text-gray-800">
               <FaDatabase size={35} />
-              <span className="text-sm text-gray-700 mt-1">Databases</span>
+              <span className="text-sm text-gray-400 mt-1">Databases</span>
             </div>
             <div className="flex flex-col items-center text-gray-900">
               <FaGithub size={35} />
-              <span className="text-sm text-gray-700 mt-1">Git/GitHub</span>
+              <span className="text-sm text-gray-400 mt-1">Git/GitHub</span>
             </div>
           </div>
         </motion.div>
