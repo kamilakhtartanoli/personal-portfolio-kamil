@@ -31,7 +31,7 @@ const Contact = () => {
     }
 
     try {
-      const res = await axios.post('http://localhost:8001/api/contact', formData);
+      const res = await axios.post('https://personal-portfolio-kamil.vercel.app/api/contact', formData);
       toast.success(res.data.message || "Message sent!");
       setFormData({ name: '', email: '', message: '' }); // Clear form
     } catch (err) {
